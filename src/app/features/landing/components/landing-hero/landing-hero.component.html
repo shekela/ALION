@@ -1,0 +1,24 @@
+<section class="hero-section">
+  <!-- Video Background -->
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="assets/media/background.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Dark overlay for readability -->
+  <div class="hero-overlay"></div>
+
+  <!-- Hero content -->
+  <div class="hero-content">
+    <h1>{{ 'FEATURE_LANDING.HERO.TITLE' | translate }}</h1>
+    <p [innerHTML]="'FEATURE_LANDING.HERO.SUBTITLE' | translate"></p>
+    <div class="cta-buttons">
+      <button class="primary-btn">{{ 'FEATURE_LANDING.HERO.BUTTON_PRIMARY' | translate }}</button>
+      <button class="secondary-btn">{{ 'FEATURE_LANDING.HERO.BUTTON_SECONDARY' | translate }}</button>
+    </div>
+
+    <img class="crm-graphics" src="assets/images/crmgraphics.png"/>
+  </div>
+
+</section>
+
