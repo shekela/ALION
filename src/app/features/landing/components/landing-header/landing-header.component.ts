@@ -6,8 +6,6 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [TranslateModule],
   templateUrl: './landing-header.component.html',
-  styleUrl: './landing-header.component.css'
+  styleUrl: './landing-header.component.css',
 })
-export class LandingHeaderComponent {
-
-}
+export class LandingHeaderComponent {}

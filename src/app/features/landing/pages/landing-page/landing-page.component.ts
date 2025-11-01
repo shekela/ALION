@@ -6,9 +6,14 @@ import { ToolsUsedSliderComponent } from '../../components/tools-used-slider/too
 
 @Component({
   selector: 'app-landing-page',
-  imports: [LandingHeaderComponent, LandingHeroComponent, ToolsUsedSliderComponent, AlionFeaturesSectionComponent],
+  imports: [
+    LandingHeaderComponent,
+    LandingHeroComponent,
+    ToolsUsedSliderComponent,
+    AlionFeaturesSectionComponent,
+  ],
   templateUrl: './landing-page.component.html',
-  styleUrl: './landing-page.component.css'
+  styleUrl: './landing-page.component.css',
 })
 export class LandingPageComponent {
   @HostListener('window:scroll', [])

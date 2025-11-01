@@ -18,7 +18,7 @@
 }
 
 .tools-title h1 {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   font-size: 6rem;
   font-weight: 800;
   letter-spacing: -6px;
@@ -56,7 +56,9 @@
   height: 100px;
   object-fit: contain;
   filter: brightness(1);
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 
 .tools-slide-track img:hover {
@@ -86,13 +88,21 @@
 
 .blur-edge.left {
   left: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
   filter: blur(10px);
 }
 
 .blur-edge.right {
   right: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
   filter: blur(10px);
 }
 

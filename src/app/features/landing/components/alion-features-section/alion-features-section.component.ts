@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-alion-features-section',
   imports: [],
   templateUrl: './alion-features-section.component.html',
-  styleUrl: './alion-features-section.component.css'
+  styleUrl: './alion-features-section.component.css',
 })
-export class AlionFeaturesSectionComponent {
-
-}
+export class AlionFeaturesSectionComponent {}

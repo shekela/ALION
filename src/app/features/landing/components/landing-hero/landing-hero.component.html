@@ -10,15 +10,21 @@
 
   <!-- Hero content -->
   <div class="hero-content">
-    <h1>{{ 'FEATURE_LANDING.HERO.TITLE' | translate }}</h1>
+    <h1>{{ "FEATURE_LANDING.HERO.TITLE" | translate }}</h1>
     <p [innerHTML]="'FEATURE_LANDING.HERO.SUBTITLE' | translate"></p>
     <div class="cta-buttons">
-      <button class="primary-btn">{{ 'FEATURE_LANDING.HERO.BUTTON_PRIMARY' | translate }}</button>
-      <button class="secondary-btn">{{ 'FEATURE_LANDING.HERO.BUTTON_SECONDARY' | translate }}</button>
+      <button class="primary-btn">
+        {{ "FEATURE_LANDING.HERO.BUTTON_PRIMARY" | translate }}
+      </button>
+      <button class="secondary-btn">
+        {{ "FEATURE_LANDING.HERO.BUTTON_SECONDARY" | translate }}
+      </button>
     </div>
 
-    <img class="crm-graphics" src="assets/images/crmgraphics.png"/>
+    <img
+      class="crm-graphics"
+      alt="CRM Photo"
+      src="assets/images/crmgraphics.png"
+    />
   </div>
-
 </section>
-

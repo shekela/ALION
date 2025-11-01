@@ -15,7 +15,6 @@ COPY . .
 # Build Angular for production
 RUN npm run build -- --configuration production
 
-
 # === Stage 2: Serve with Nginx ===
 FROM nginx:1.25-alpine
 

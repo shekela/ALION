@@ -7,7 +7,7 @@
   min-height: 100vh;
   max-width: 100%;
   margin: 0 auto;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   text-align: center;
   color: #ffffff;
   overflow: hidden;
@@ -42,15 +42,14 @@
   z-index: 2;
   max-width: 80%;
   height: fit-content;
-  display: flex;          /* new */
+  display: flex; /* new */
   flex-direction: column; /* new */
   justify-content: center; /* vertically center children */
-  align-items: center;    /* horizontally center children */
-  min-height: 100vh;       /* take full height of hero-section */
-  text-align: center;     /* center text */
+  align-items: center; /* horizontally center children */
+  min-height: 100vh; /* take full height of hero-section */
+  text-align: center; /* center text */
   margin-top: 150px;
 }
-
 
 .hero-section h1 {
   font-size: 8rem;
@@ -59,7 +58,7 @@
   letter-spacing: -8px;
   margin-bottom: 1.5rem;
   margin-top: 0px;
-  color: #ffffff;           /* title in white */
+  color: #ffffff; /* title in white */
 }
 
 .hero-section p {
@@ -81,8 +80,8 @@
 
 /* Primary button */
 .primary-btn {
-  background: #ffffff;        /* light button on dark bg */
-  color: black;            /* dark text */
+  background: #ffffff; /* light button on dark bg */
+  color: black; /* dark text */
   border: none;
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -93,14 +92,14 @@
 }
 
 .primary-btn:hover {
-  background: #f0f0f0;      /* subtle hover effect */
+  background: #f0f0f0; /* subtle hover effect */
   transform: translateY(-2px);
 }
 
 /* Secondary button */
 .secondary-btn {
   background: transparent;
-  color: #ffffff;             /* white border text */
+  color: #ffffff; /* white border text */
   border: 2px solid #ffffff;
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -116,11 +115,11 @@
   transform: translateY(-2px);
 }
 
-strong{
+strong {
   font-weight: bolder;
 }
 
-.crm-graphics{
+.crm-graphics {
   width: 60%;
   height: 45vh;
   margin-left: 0%;
@@ -147,7 +146,8 @@ strong{
     font-size: 1rem;
   }
 
-  .primary-btn, .secondary-btn {
+  .primary-btn,
+  .secondary-btn {
     width: 100%;
     max-width: 300px;
   }
@@ -157,4 +157,3 @@ strong{
     gap: 1rem;
   }
 }
-

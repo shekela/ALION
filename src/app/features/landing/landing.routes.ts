@@ -6,6 +6,6 @@ export const LANDING_ROUTES: Routes = [
   {
     path: '',
     component: LandingPageComponent,
-    title: 'Welcome to Alion', 
+    title: 'Welcome to Alion',
   },
 ];

@@ -1,12 +1,12 @@
-section{
-    width: 100%;
-    height: 100vh;
-    background-color: #20063d; /* fallback */
-    background: linear-gradient(
-        183.88deg,
-        rgba(3, 17, 26, 1) 0%,
-        rgba(32, 6, 61, 1) 77%
-    );
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #20063d; /* fallback */
+  background: linear-gradient(
+    183.88deg,
+    rgba(3, 17, 26, 1) 0%,
+    rgba(32, 6, 61, 1) 77%
+  );
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
