@@ -1,0 +1,37 @@
+name: Lint & Prettier
+
+# Trigger on push or pull request to 'develop' branch
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  lint-prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Run ESLint
+      - name: Run lint
+        run: npm run lint
+
+      # 5. Run Prettier check
+      - name: Check Prettier formatting
+        run: npm run format:check
