@@ -1,5 +1,5 @@
 import { NgFor } from '@angular/common';
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, } from '@angular/core';
 
 @Component({
   selector: 'app-images-slider',
@@ -8,10 +8,10 @@ import { Component, Input, OnDestroy, OnInit } from '@angular/core';
   styleUrl: './images-slider.component.css'
 })
 export class ImagesSliderComponent{
-  @Input() width: string = '100%';
-  @Input() height: string = '150px';
-  @Input() speed: number = 20; 
-  @Input() background: string = 'transparent';
+  @Input() width = '100%';
+  @Input() height = '150px';
+  @Input() speed = 20; 
+  @Input() background = 'transparent';
   @Input() direction: 'left' | 'right' = 'left';
   @Input() images: string[] = [];
 

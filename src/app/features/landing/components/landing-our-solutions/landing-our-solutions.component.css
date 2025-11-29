@@ -19,7 +19,7 @@ section{
 h2{
     font-size: 56px;
     font-weight: 100;
-    font-family: sans-serif;
+    font-family: "InterDisplayLight";
     text-align: center;
     color: white;
 }
@@ -74,8 +74,9 @@ h2{
   height: 125px;
   background: #0a0f24;
   color: white;
-  font-family: sans-serif;
-  font-size: 18px;
+  font-family: "InterDisplayLight";
+  opacity: 65%;
+  font-size: 20px;
   font-weight: 100;
   text-align: center;
   border: 1px solid white;
