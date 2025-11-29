@@ -1,0 +1,21 @@
+{
+  "FEATURE_LANDING": {
+    "HEADER": {
+      "SOLUTIONS": "Solutions",
+      "FEATURES": "Features",
+      "ABOUT_US": "About Us",
+      "CONTACT": "Contact"
+    },
+    "HERO": {
+      "HEADLINE": "Turn every visit into a client",
+      "SUBHEADLINE": "Most real estate companies lose 99% of their potential clients because they don’t track website visitors and their preferences",
+      "BUTTONS": {
+        "BOOK_FREE_DEMO": "Book a Free Demo",
+        "LEARN_MORE": "Learn More"
+      },
+      "VIDEO": {
+        "SEE_HOW_IT_WORKS": "See How It Works"
+      }
+    }
+  }
+}
