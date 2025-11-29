@@ -1,0 +1,47 @@
+:host { /* ensure host doesn't collapse unexpectedly */
+  display: block;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: max-content;
+  --anim-duration: 20s;
+}
+
+.track.scroll-left {
+  animation: scroll-left var(--anim-duration) linear infinite;
+}
+
+.track.scroll-right {
+  animation: scroll-right var(--anim-duration) linear infinite;
+}
+
+.track img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } 
+}
+
+/* LEFT -> RIGHT: reverse motion */
+@keyframes scroll-right {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}

@@ -1,16 +1,21 @@
 {
   "FEATURE_LANDING": {
     "HEADER": {
-      "HOW_IT_WORKS": "How it works",
-      "WHO_WE_ARE": "Who are we",
       "SOLUTIONS": "Solutions",
+      "FEATURES": "Features",
+      "ABOUT_US": "About Us",
       "CONTACT": "Contact"
     },
     "HERO": {
-      "TITLE": "Boost Your Real Estate Agency",
-      "SUBTITLE": "Stop <strong>losing</strong> potential clients <strong>every day</strong>. Alion automatically generates leads and turns them into clients, so your <strong>agents just focus on closing deals.</strong>",
-      "BUTTON_PRIMARY": "Get Started",
-      "BUTTON_SECONDARY": "Watch Demo"
+      "HEADLINE": "Turn every visit into a client",
+      "SUBHEADLINE": "Most real estate companies lose 99% of their potential clients because they don’t track website visitors and their preferences",
+      "BUTTONS": {
+        "BOOK_FREE_DEMO": "Book a Free Demo",
+        "LEARN_MORE": "Learn More"
+      },
+      "VIDEO": {
+        "SEE_HOW_IT_WORKS": "See How It Works"
+      }
     }
   }
 }
