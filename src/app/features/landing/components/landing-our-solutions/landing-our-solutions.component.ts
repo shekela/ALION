@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-landing-our-solutions',
   imports: [],
   templateUrl: './landing-our-solutions.component.html',
-  styleUrl: './landing-our-solutions.component.css'
+  styleUrl: './landing-our-solutions.component.css',
 })
-export class LandingOurSolutionsComponent {
-
-}
+export class LandingOurSolutionsComponent {}

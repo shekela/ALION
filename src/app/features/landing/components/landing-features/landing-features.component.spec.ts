@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { LandingFeaturesComponent } from './landing-features.component';
 
-
 describe('LandingFeaturesComponent', () => {
   let component: LandingFeaturesComponent;
   let fixture: ComponentFixture<LandingFeaturesComponent>;

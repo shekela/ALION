@@ -5,8 +5,6 @@ import { ImagesSliderComponent } from '../../../../shared/components/images-slid
   selector: 'app-landing-tools-slider',
   imports: [ImagesSliderComponent],
   templateUrl: './landing-tools-slider.component.html',
-  styleUrl: './landing-tools-slider.component.css'
+  styleUrl: './landing-tools-slider.component.css',
 })
-export class LandingToolsSliderComponent {
-
-}
+export class LandingToolsSliderComponent {}

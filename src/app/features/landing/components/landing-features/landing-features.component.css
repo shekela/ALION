@@ -1,14 +1,19 @@
 section.rounded-section {
   display: flex;
   justify-content: center;
-  margin: 80px 0; 
+  margin: 80px 0;
 }
 
 .rounded-container {
   position: relative;
   width: 85%;
   height: 700px;
-  background: linear-gradient(35deg,rgba(14, 4, 26, 1) 0%, rgba(57, 45, 74, 1) 100%, rgba(38, 32, 52, 1) 50%);
+  background: linear-gradient(
+    35deg,
+    rgba(14, 4, 26, 1) 0%,
+    rgba(57, 45, 74, 1) 100%,
+    rgba(38, 32, 52, 1) 50%
+  );
   border-radius: 70px;
   display: flex;
   flex-direction: column;
@@ -28,14 +33,14 @@ section.rounded-section {
 .rounded-container::after {
   content: "";
   position: absolute;
-  inset: 15px; 
-  border-radius: 55px; 
+  inset: 15px;
+  border-radius: 55px;
   border: 1px solid #edfae6;
   pointer-events: none;
 }
 
 .top-part {
-  flex: 0 0 15%; 
+  flex: 0 0 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,13 +62,13 @@ section.rounded-section {
 
 .divider-line {
   width: 100%;
-  height: 2px; 
+  height: 2px;
   background: radial-gradient(
     circle at center,
-    rgba(199, 229, 153, 0.8) 0%,   
-    rgba(199, 229, 153, 0.4) 40%, 
-    rgba(199, 229, 153, 0.3) 70%,  
-    rgba(199, 229, 153, 0) 100%    
+    rgba(199, 229, 153, 0.8) 0%,
+    rgba(199, 229, 153, 0.4) 40%,
+    rgba(199, 229, 153, 0.3) 70%,
+    rgba(199, 229, 153, 0) 100%
   );
 }
 
@@ -84,7 +89,7 @@ section.rounded-section {
   max-width: 800px;
   max-height: 800px;
   object-fit: contain;
-  border-radius: 20px; 
+  border-radius: 20px;
 }
 
 .bottom-right {

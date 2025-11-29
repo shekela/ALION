@@ -5,26 +5,25 @@ body {
   width: 100%;
   background: #020024;
   background: linear-gradient(
-  179deg,
-  rgba(2, 0, 36, 1) 0%,       /* very dark blue */
-  rgb(0, 0, 53) 45%,      /* mid lighter blue */
-  rgb(3, 0, 38) 70%,     /* medium-dark blue */
-  rgb(0, 0, 14) 100%      /* darker end (blue-black) */
-);
-
+    179deg,
+    rgba(2, 0, 36, 1) 0%,
+    /* very dark blue */ rgb(0, 0, 53) 45%,
+    /* mid lighter blue */ rgb(3, 0, 38) 70%,
+    /* medium-dark blue */ rgb(0, 0, 14) 100% /* darker end (blue-black) */
+  );
 }
 
 @font-face {
-  font-family: 'InterDisplayExtraLight';
-  src: url('/assets/fonts/InterDisplay-ExtraLight.ttf') format('truetype');
+  font-family: "InterDisplayExtraLight";
+  src: url("/assets/fonts/InterDisplay-ExtraLight.ttf") format("truetype");
   font-weight: 200; /* ExtraLight */
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'InterDisplayLight';
-  src: url('/assets/fonts/InterDisplay-Light.ttf') format('truetype');
+  font-family: "InterDisplayLight";
+  src: url("/assets/fonts/InterDisplay-Light.ttf") format("truetype");
   font-weight: 200; /* ExtraLight */
   font-style: normal;
   font-display: swap;

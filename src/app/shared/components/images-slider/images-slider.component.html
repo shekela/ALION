@@ -1,18 +1,29 @@
-<div class="slider"
-     [style.width]="width"
-     [style.height]="height"
-     [style.background]="background">
-
-  <div class="track"
-       [class.scroll-left]="isLeft"
-       [class.scroll-right]="isRight"
-       [style.--anim-duration]="speed + 's'">
-
+<div
+  class="slider"
+  [style.width]="width"
+  [style.height]="height"
+  [style.background]="background"
+>
+  <div
+    class="track"
+    [class.scroll-left]="isLeft"
+    [class.scroll-right]="isRight"
+    [style.--anim-duration]="speed + 's'"
+  >
     <!-- first copy -->
-    <img *ngFor="let img of images" [src]="img" [style.height]="height" alt="" />
+    <img
+      *ngFor="let img of images"
+      [src]="img"
+      [style.height]="height"
+      alt=""
+    />
 
     <!-- duplicate copy for seamless loop -->
-    <img *ngFor="let img of images" [src]="img" [style.height]="height" alt="" />
-
+    <img
+      *ngFor="let img of images"
+      [src]="img"
+      [style.height]="height"
+      alt=""
+    />
   </div>
 </div>

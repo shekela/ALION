@@ -10,7 +10,7 @@
   margin: 20px auto;
   padding: 45px;
   border-radius: 50px;
-  background: transparent; 
+  background: transparent;
   text-align: center;
   z-index: 1;
   overflow: hidden;
@@ -23,10 +23,10 @@
   inset: 0;
   border-radius: 50px;
   padding: 2px; /* border thickness */
-  background: linear-gradient(90deg, #9AA195, #EDFAE6, #9AA195, #EDFAE6);
+  background: linear-gradient(90deg, #9aa195, #edfae6, #9aa195, #edfae6);
   background-size: 200% 200%;
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -46,36 +46,35 @@
   }
 }
 
-
-h1{
-    font-size: 56px;
-    font-weight: 100;
-    font-family: "InterDisplayExtraLight";
-    text-align: center;
-    color: #edfae6;
+h1 {
+  font-size: 56px;
+  font-weight: 100;
+  font-family: "InterDisplayExtraLight";
+  text-align: center;
+  color: #edfae6;
 }
 
-h2{
-    font-size: 38px;
-    font-weight: 100;
-    font-family: "InterDisplayLight";
-    opacity: 60%;
-    text-align: center;
-    color: #edfae6;
-    margin: 0;
-    line-height: 1.25;
-    transform: skewX(-8deg);
-    margin-top: 100px;
+h2 {
+  font-size: 38px;
+  font-weight: 100;
+  font-family: "InterDisplayLight";
+  opacity: 60%;
+  text-align: center;
+  color: #edfae6;
+  margin: 0;
+  line-height: 1.25;
+  transform: skewX(-8deg);
+  margin-top: 100px;
 }
 
 .subheadline-textbox p {
-    font-size: 46px;
-    font-weight: 100;
-    font-family: "InterDisplayExtraLight";
-    text-align: center;
-    color: #99BBC1;
-    margin: 0;
-    line-height: 1.3;
+  font-size: 46px;
+  font-weight: 100;
+  font-family: "InterDisplayExtraLight";
+  text-align: center;
+  color: #99bbc1;
+  margin: 0;
+  line-height: 1.3;
 }
 
 /* PROFILE GRID – layout */
@@ -120,13 +119,13 @@ h2{
   height: 80%; /* covers most of the card */
   background: linear-gradient(
     180deg,
-    rgba(0,0,0,0) 0%,        /* fully transparent at top of overlay */
-    rgba(0,0,0,0.15) 20%,    /* slightly visible */
-    rgba(0,0,0,0.35) 40%,    /* darker */
-    rgba(0,0,0,0.55) 55%,    /* mid-dark */
-    rgba(0,0,0,0.75) 70%,    /* very dark */
-    rgba(0,0,0,0.92) 88%,    /* almost black */
-    rgba(0,0,0,1) 100%       /* fully black at bottom */
+    rgba(0, 0, 0, 0) 0%,
+    /* fully transparent at top of overlay */ rgba(0, 0, 0, 0.15) 20%,
+    /* slightly visible */ rgba(0, 0, 0, 0.35) 40%,
+    /* darker */ rgba(0, 0, 0, 0.55) 55%,
+    /* mid-dark */ rgba(0, 0, 0, 0.75) 70%,
+    /* very dark */ rgba(0, 0, 0, 0.92) 88%,
+    /* almost black */ rgba(0, 0, 0, 1) 100% /* fully black at bottom */
   );
 }
 

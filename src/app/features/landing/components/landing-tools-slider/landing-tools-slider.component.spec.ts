@@ -8,9 +8,8 @@ describe('LandingToolsSliderComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LandingToolsSliderComponent]
-    })
-    .compileComponents();
+      imports: [LandingToolsSliderComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(LandingToolsSliderComponent);
     component = fixture.componentInstance;

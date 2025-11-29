@@ -14,11 +14,9 @@ import { LandingAboutUsComponent } from '../../components/landing-about-us/landi
     LandingOurSolutionsComponent,
     LandingFeaturesComponent,
     LandingToolsSliderComponent,
-    LandingAboutUsComponent
+    LandingAboutUsComponent,
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css',
 })
-export class LandingPageComponent {
-  
-}
+export class LandingPageComponent {}
