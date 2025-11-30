@@ -140,17 +140,23 @@ h2 {
 
 .profile-info h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 600;
+  font-family: "InterDisplayLight";
+  font-style: italic;
 }
 
 .profile-info .role {
   margin: 5px 0;
   font-weight: 500;
   opacity: 0.9;
+  font-size: 19px;
+  font-family: "InterDisplayLight";
+  font-style: italic;
 }
 
 .profile-info .desc {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.8;
+  font-family: "InterDisplayLight";
 }
