@@ -68,7 +68,7 @@ h2 {
 }
 
 .subheadline-textbox p {
-  font-size: 46px;
+  font-size: 32px;
   font-weight: 100;
   font-family: "InterDisplayExtraLight";
   text-align: center;
@@ -81,8 +81,8 @@ h2 {
 .profile-grid-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 75px;
-  max-width: 1500px;
+  gap: 70px;
+  max-width: 1150px;
   margin: 40px auto;
 }
 
@@ -94,8 +94,8 @@ h2 {
 .profile-card {
   position: relative;
   overflow: hidden;
-  border-radius: 70px;
-  height: 650px;
+  border-radius: 65px;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
