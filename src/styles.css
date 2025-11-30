@@ -15,7 +15,7 @@ body {
 
 @font-face {
   font-family: "InterDisplayExtraLight";
-  src: url("/assets/fonts/InterDisplay-ExtraLight.ttf") format("truetype");
+  src: url("./assets/fonts/InterDisplay-ExtraLight.ttf") format("truetype");
   font-weight: 200; /* ExtraLight */
   font-style: normal;
   font-display: swap;
@@ -23,7 +23,7 @@ body {
 
 @font-face {
   font-family: "InterDisplayLight";
-  src: url("/assets/fonts/InterDisplay-Light.ttf") format("truetype");
+  src: url("./assets/fonts/InterDisplay-Light.ttf") format("truetype");
   font-weight: 200; /* ExtraLight */
   font-style: normal;
   font-display: swap;
