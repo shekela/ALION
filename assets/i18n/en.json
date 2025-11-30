@@ -16,6 +16,48 @@
       "VIDEO": {
         "SEE_HOW_IT_WORKS": "See How It Works"
       }
+    },
+    "OUR_SOLUTIONS": {
+      "HEADLINE": "Our Solutions",
+      "INFOBOXES": {
+        "INFOBOX_ONE": "We collect contact information and viewing preferences of every visitor on your website",
+        "INFOBOX_TWO": "We use the information to automate the entire sales process for your brokers, for every single visitor on your website",
+        "INFOBOX_THREE": "You can track and manage everything from one place"
+      }
+    },
+    "FEATURES": {
+      "HEADLINE": "Features",
+      "SUBHEADLINE": "This is how we turn every lead into a sale",
+      "PARAPGRAPHS": {
+        "PARAPGRAPH_ONE": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Lorem ipsum dolor, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Lorem ipsum dolor"
+      }
+    },
+    "ABOUT_US": {
+      "HEADLINE": "About Us",
+      "OUR_MISSION": "Our mission, what we do, wherewe do it, why we do it, for who Our mission, what we do, wherewe do it, why we do it, for who why and where",
+      "WELCOME_HEADLINE": "Meet Our Team",
+      "TEAM": {
+        "MEMBER_ONE": {
+          "NAME": "Luka Shekelashvili",
+          "ROLE": "CTO",
+          "DESCRIPTION": "Chief Technology Officer"
+        },
+        "MEMBER_TWO": {
+          "NAME": "Giorgi Tavadze",
+          "ROLE": "CMO",
+          "DESCRIPTION": "Chief Marketing Officer"
+        },
+        "MEMBER_THREE": {
+          "NAME": "Sandro Tavadze",
+          "ROLE": "CEO",
+          "DESCRIPTION": "Chief Executive Officer"
+        },
+        "MEMBER_FOUR": {
+          "NAME": "Anotonio Doblas Gil",
+          "ROLE": "Director of Sales",
+          "DESCRIPTION": "Growing our brand and reaching to audience"
+        }
+      }
     }
   }
 }
