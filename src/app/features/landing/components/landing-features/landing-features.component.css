@@ -6,8 +6,8 @@ section.rounded-section {
 
 .rounded-container {
   position: relative;
-  width: 85%;
-  height: 700px;
+  width: 80%;
+  height: fit-content;
   background: linear-gradient(
     35deg,
     rgba(14, 4, 26, 1) 0%,
