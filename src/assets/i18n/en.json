@@ -55,7 +55,39 @@
         "MEMBER_FOUR": {
           "NAME": "Anotonio Doblas Gil",
           "ROLE": "Director of Sales",
-          "DESCRIPTION": "Growing our brand and reaching to audience"
+          "DESCRIPTION": "Growing our brand"
+        }
+      }
+    },
+    "CONTACT": {
+      "HEADLINE": "Innovate and grow with Alion.Labs",
+      "SUBHEADLINE": "Most real estate businesses are afraid of innovation. Untrusting of technology, they fall behind in the age of AI. Book a free 30 minute demo today and see if Alion.Labs is the right fit for you",
+      "BOOK_BUTTON": "Book a free Demo",
+      "COMPANY": {
+        "HEADLINE": "Company",
+        "CONTENT": {
+          "SOLUTIONS": "Solutions",
+          "FEATURES": "Features",
+          "ABOUT_US": "About Us",
+          "BOOK_DEMO": "Book a Demo"
+        }
+      },
+      "LEGAL": {
+        "HEADLINE": "Legal",
+        "CONTENT": {
+          "SOLUTIONS": "Privacy Policy",
+          "FEATURES": "Terms and Conditions"
+        }
+      },
+      "SUPPORT": {
+        "HEADLINE": "Support",
+        "CONTENT": {
+          "CONTACT_ITEMS_HEADER": "Contact :",
+          "CONTACT": {
+            "EMAIL": "support@alionlabs.com",
+            "PHONE": "+420 777 777 777"
+          },
+          "ALL_RIGHTS_RESERVED": "Alion.Labs LLC. All rights reserved."
         }
       }
     }

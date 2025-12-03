@@ -5,6 +5,8 @@ import { LandingOurSolutionsComponent } from '../../components/landing-our-solut
 import { LandingFeaturesComponent } from '../../components/landing-features/landing-features.component';
 import { LandingToolsSliderComponent } from '../../components/landing-tools-slider/landing-tools-slider.component';
 import { LandingAboutUsComponent } from '../../components/landing-about-us/landing-about-us.component';
+import { LandingExperienceSliderComponent } from '../../components/landing-experience-slider/landing-experience-slider.component';
+import { LandingContactComponent } from '../../components/landing-contact/landing-contact.component';
 
 @Component({
   selector: 'app-landing-page',
@@ -15,6 +17,8 @@ import { LandingAboutUsComponent } from '../../components/landing-about-us/landi
     LandingFeaturesComponent,
     LandingToolsSliderComponent,
     LandingAboutUsComponent,
+    LandingExperienceSliderComponent,
+    LandingContactComponent,
   ],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css',
